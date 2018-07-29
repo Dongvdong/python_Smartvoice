@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 
 import urllib.request
+import requests#导入requests库
 import urllib
+import json
 import base64
 class BaiduRest:
     def __init__(self, cu_id, api_key, api_secert):
